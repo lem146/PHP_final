@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+                var pet1 = new Object();
+                pet1.name = "Tanaraq";
+                pet1.type = "Dog";
+                pet1.birthday = new Date('2010.09.18');
+                pet1.nickname = "Banana";
+               
+                var pet2 = new Object();
+                pet2.name = "Brunhilda";
+                pet2.type = "Dog";
+                pet2.birthday = new Date('2017.01.25');
+                pet2.nickname = "Hilda Bear";
+               
+                var pet3 = new Object();
+                pet3.name = "Shadow Cat";
+                pet3.type = "Cat";
+                pet3.birthday = "Unknown";
+                pet3.nickname = "Kitty";
+               
+                function petType(){
+                                console.log(this.name + " is a " + this.type + ".");
+                }
+               
+                function getNickname(){
+                                console.log(this.nickname + " is " + this.name + "'s nickname.");
+                }
+               
+                function getBirthdate(){
+                                console.log(this.name + "'s birthdate is " + this.birthday);
+                }
+             
+                pet1.logNickname = getNickname;
+                pet2.logNickname = getNickname;
+                pet3.logNickname = getNickname;
+               
+                pet1.logType = petType;
+                pet2.logType = petType;
+                pet3.logType = petType;
+               
+                pet1.logBirthday = getBirthdate;
+                pet2.logBirthday = getBirthdate;
+                pet3.logBirthday = getBirthdate;
+               
+                pet2.logNickname();
+                pet1.logType();
+                pet3.logBirthday();
+
+</script>
+</body>
+</html>

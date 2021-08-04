@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Construction Inc.</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<style>
+.responsive {
+  width: 100%;
+  height: auto;
+}
+</style>
+<img src="otherbanner.jpg" alt="construction" class="responsive">
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ourprojects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="meetourteam.html">Meet Our Team</a>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link" href="reviews.php">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.php">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">Construction Inc.</h1>
+        <p class="lead">General Contractor in Central Pennsylvania</p>
+        <ul class="list-unstyled">
+              <li>Open Mon-Fri 8 a.m. to 5 p.m.</li>
+          <li><button id="contact" align="center" >Contact Us</button>
+              <script type="text/javascript">
+               document.getElementById("contact").onclick = function () {
+                location.href = "contact.php";
+                 };
+              </script>
+          </li>
+      
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+ <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">Get directions to our office.</h1>
+      </div>
+    </div>
+  </div>
+  
+ <!--js for google maps-->
+ 
+ <div align="center">
+    <div class="mapouter">
+    <div class="gmap_canvas">
+            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=3505%20Sullivan%20Street%20Mechanicsburg,%20PA%2017050%20United%20States&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+          
+            </a><br>
+            <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
+            <a href="https://www.embedgooglemap.net">google map embed responsive</a>
+            <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+    </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

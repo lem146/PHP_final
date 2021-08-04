@@ -1,0 +1,10 @@
+The password and username to log into the admin account is test for both. 
+
+Functions: 
+
+1. users can contact the company to inquire about services. 
+2. past customers can leave reviews on the website. 
+3. owner can log in as admin and add new employees to list. 
+4. owner can add projects and keep track of them. 
+5. owner can view requests from customers. 
+6. users can click on the google map which will lead them to directions to the construction building. 
